@@ -12,3 +12,7 @@ The model in question produces an image for each 0.5 seconds of EEG data, allowi
 # How we built it
 
 The EEG data are sourced from reputable research journals. Our machine learning foundation leverages **TensorFlow** and **Hugging Face's Transformers** library, chosen for their synergy with intricate neural architectures. Additionally, **OpenAI's GPT API** bolsters our narrative generation process, with its pre-trained models minimizing our training overhead. For the visual narrative, ensuring continuous and coherent visual output, we employ a modified version of stable diffusion techniques. This guarantees visuals that flow seamlessly, much like a dream. Our web application interface, tailored for both researchers and end-users, utilizes the capabilities of **Next.js** and **React** for dynamic UI components and **Flask** as a nimble backend server for data processing and model interactions.
+
+#Video_Models
+
+The Video Models folder will be uploaded in the future. The model used is a varient of Deforum Stable Diffusion, which is modified to produce a series of images that flow between prompts, and the prompts are derived from the images produced from EEG data. In the future, we hope to avoid this text intermediary and go directly from image to video.
